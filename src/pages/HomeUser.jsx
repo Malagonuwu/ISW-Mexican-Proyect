@@ -6,7 +6,6 @@ export default function HomeUser() {
   const [vehiculos] = useState([
     { tipo: 'Motocicleta', placas: 'DYB35VF', imagen: '/src/assets/Moto.png' },
     { tipo: 'Motocicleta', placas: 'XYZ1234', imagen: '/src/assets/Moto.png' },
-    { tipo: 'Motocicleta', placas: 'AAA9999', imagen: '/src/assets/Moto.png' }
   ])
 
   const [index, setIndex] = useState(0)
